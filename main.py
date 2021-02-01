@@ -43,4 +43,5 @@ text_file.write(output)
 text_file.close()
 
 os.system('cls' if os.name == 'nt' else 'clear')
-print('\n\n\n\n\n                  github: https://github.com/AminHCE/hcesql\n\n\n\n\n\n\n')
+print('\n\n\n\n\n                  output.txt generated.')
+print('                  github: https://github.com/AminHCE/hcesql\n\n\n\n\n\n\n\n\n')
