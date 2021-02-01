@@ -1,0 +1,11 @@
+insert into student st_name=ali_reza st_family=moradi st_code=1548
+insert into student st_name=amin st_family=hemmati st_code=9672193
+insert into course course_name=riyazi course_code=1254
+insert into course course_name=fizik course_code=2541
+insert into student_course course_code=2541 st_code=9672193
+insert into student_course course_code=2541 st_code=1548
+update course course_name=riazi where course_code=12
+delete from student_course where course_code=12 and st_code=12
+select from student where st_name=amin
+select from course where course_name=fizik
+select from student_course where st_code=9672193
